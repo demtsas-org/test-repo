@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: "0 0,12 * * *"  # every 12 hours
 env:
-  WERF_REPO: "ghcr.io/g-core/access-control"
+  WERF_REPO: "ghcr.io/g-core"
 jobs:
   cleanup_registry:
     runs-on: [ "self-hosted-ubuntu-22-04-regular-x64" ]
