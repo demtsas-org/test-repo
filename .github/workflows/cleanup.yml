@@ -1,7 +1,5 @@
 name: cleanup
-on:
-  schedule:
-    - cron: "0 0,12 * * *"  # every 12 hours
+on: [push]
 env:
   WERF_REPO: "ghcr.io/g-core"
 jobs:
