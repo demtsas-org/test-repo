@@ -15,7 +15,7 @@ jobs:
           egress-policy: audit
 
       - name: Check out master
-        uses: actions/checkout@61b9e3751b92087fd0b06925ba6dd6314e06f089 # master
+        uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # master
         
       - name: Security vulnerabilities scan
         uses: aufdenpunkt/python-safety-check@d5468d88a766a647545a256f118b216833f91088 # master
