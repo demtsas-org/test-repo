@@ -7,7 +7,7 @@ jobs:
     runs-on: [ "self-hosted-ubuntu-22-04-regular-x64" ]
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.1.5
 
       - name: Install werf
         uses: werf/actions/install@v1.2
