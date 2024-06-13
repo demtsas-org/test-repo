@@ -1,0 +1,19 @@
+{
+  "name": "vulnerability-check",
+  "version": "1.0.0",
+  "description": "A test project to check dependency vulnerabilities and licenses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.17.1",            // Example of a dependency with potential vulnerabilities
+    "lodash": "4.17.19",            // Known vulnerabilities in older versions
+    "minimist": "1.2.0"             // Vulnerability in this version
+  },
+  "devDependencies": {
+    "gulp": "3.9.1"                 // Deprecated and vulnerable version
+  },
+  "author": "",
+  "license": "MIT"
+}
